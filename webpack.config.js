@@ -12,7 +12,7 @@ const config = (env, arg) => {
     output: {
       path: path.join(__dirname, outDir),
       filename: "[name].bundle.js",
-      publicPath: "/",
+      publicPath: "/you-to-ascii/",
     },
     devServer: {
       contentBase: path.join(__dirname, "static"),
