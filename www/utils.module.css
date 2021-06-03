@@ -1,0 +1,15 @@
+.togglerBkg {
+  background: hsl(29, 100%, 71%);
+}
+
+.togglerBkg:hover {
+  background: hsl(29, 100%, 61%);
+}
+
+.copyBkg {
+  background: hsl(14, 100%, 66%);
+}
+
+.copyBkg:hover {
+  background: hsl(14, 100%, 56%);
+}

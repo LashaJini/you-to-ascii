@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.buttonsWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.button {
+  padding: 5px 8px;
+  margin: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 1.125rem;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+
+.pre {
+  color: white;
+  margin-top: 3rem;
+}
+
+.notification {
+  display: block;
+  width: 80%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  color: white;
+  border: 5px solid green;
+  border-radius: 5px;
+  font-size: 2rem;
+  transition: opacity 1s;
+  padding: 5px;
+  text-align: center;
+  line-height: 100px;
+}
