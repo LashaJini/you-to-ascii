@@ -1,6 +1,7 @@
 {
   "name": "you-to-ascii",
   "version": "1.0.0",
+  "homepage": "https://109149.github.io/you-to-ascii",
   "description": "",
   "main": "index.js",
   "scripts": {
