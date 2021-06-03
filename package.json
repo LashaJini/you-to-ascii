@@ -1,0 +1,26 @@
+{
+  "name": "you-to-ascii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode=production",
+    "build:dev": "NODE_ENV=development webpack --mode=development",
+    "server:dev": "NODE_ENV=development webpack serve --mode=development --host 0.0.0.0",
+    "server:dev:https": "NODE_ENV=development webpack serve --mode=development --host 0.0.0.0 --https"
+  },
+  "keywords": [],
+  "author": "109149 <109149qwe@gmail.com> (http://109149.rocks/)",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "4.0.0-alpha.0",
+    "css-loader": "5.2.6",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "5.3.1",
+    "sass-loader": "12.0.0",
+    "style-loader": "2.0.0",
+    "webpack": "5.38.1",
+    "webpack-cli": "4.7.0",
+    "webpack-dev-server": "3.11.2"
+  }
+}
